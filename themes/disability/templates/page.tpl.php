@@ -113,7 +113,6 @@
       <div id="nav-wrapper">
         <div class="container clearfix">
           <?php print render($page['menu_bar']); ?>
-          <?php if ($back_link): print $back_link; endif; ?>
           <?php if ($primary_navigation): print $primary_navigation; endif; ?>
           <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
           <?php print theme('links', array('links' => menu_navigation_links('menu-support-diversity'), 'attributes' => array('class' => array('links', 'support')))); ?>
