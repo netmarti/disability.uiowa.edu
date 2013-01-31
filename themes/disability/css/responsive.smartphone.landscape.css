@@ -8,6 +8,38 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 /* Increase the body font size on small devices */
-html {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000316}}
+#main-content {
   font-size: 112.5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000320}}
+#site-name {
+  font-size: 2.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000324}}
+.eod, .cde {
+  font-size: 55%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000328}}
+#block-superfish-1 {
+  margin: 1em 0 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000332}}
+#superfish-1 .sf-depth-1 a {
+  font-size: 90%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000336}}
+.view-slideshow .views-field-field-caption {
+  font-size: 80%;
+  margin: -5px 0 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000343}}
+.pane-menu-menu-cdo, .pane-menu-menu-eod, .pane-menu-menu-cde {
+  min-height: auto;
 }

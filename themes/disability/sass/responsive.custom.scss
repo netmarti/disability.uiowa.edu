@@ -34,24 +34,46 @@
  * Smartphone sizes and down
  */
 @media only screen and (max-width: 480px) {
-  
-  /* 
+
+  /*
    * Float Region blocks example:
    * In smaller screen sizes we can remove the float and widths so all blocks
    * stack instead of displaying horizonally. The selector used here is an
    * "attribute selector" which will match on any float block class. Use your
    * inspector or Firebug to get the classes from the page output if you need
    * more granular control over block alignment and stacking.
-   * 
+   *
    * "Float Region blocks" is an extension for floating blocks in regions, see
    * your themes appearance settings, under the Extensions tab.
-   */ 
+   */
   .region[class*="float-blocks"] .block {
     float: none;
     width: 100%;
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .front #header-wrapper {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  #nav-wrapper .container .support li a {
+    display: inline;
+    background: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: $black;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .support {
+    display: none;
+  }
+}
 
 /*
  * Tablet sizes and up

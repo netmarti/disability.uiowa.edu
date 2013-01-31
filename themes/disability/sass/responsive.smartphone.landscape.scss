@@ -13,6 +13,33 @@
  */
 
 /* Increase the body font size on small devices */
-html {
-  font-size: 112.5%; 
+#main-content {
+  font-size: 112.5%;
+}
+
+#site-name {
+  font-size: 2.2em;
+}
+
+.eod, .cde {
+  font-size: 55%;
+}
+
+#block-superfish-1 {
+  margin: 1em 0 1em 0;
+}
+
+#superfish-1 .sf-depth-1 a{
+  font-size: 90%;
+}
+
+.view-slideshow .views-field-field-caption {
+  font-size: 80%;
+  margin
+
+  : -5px 0 1em 0;
+}
+
+.pane-menu-menu-cdo, .pane-menu-menu-eod, .pane-menu-menu-cde {
+  min-height: auto;
 }

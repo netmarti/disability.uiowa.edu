@@ -10,7 +10,7 @@
 // Mixins
 // -----------------------------------------------------------------------------
 // To use a mixin in this file, add this line to the top of your .scss file:
-//   @import "base"; (_base.scss imports _custom.scss).
+//   import "base"; (_base.scss imports _custom.scss).
 //
 // Then to use a mixin for a particular rule, add this inside the ruleset's
 // curly brackets:
@@ -23,7 +23,19 @@
 // elements such as forms, tables, tabs etc.
 //
 
-$page:         #fff;    // to match the page background, default is white
+$white:     #ffffff;
+$black:     #000000;
+$grey:      #d8d9da;
+$dark_grey: #3d4049;
+$gold:      #ebc733;
+$brown:     #dcb467;
+$green:     #1ea89c;
+$blue:      #6073b5;
+$red:       #d5652c;
+$purple:    #7b60a5;
+
+
+$page:         #4c4f57;    // to match the page background, default is white
 $border:       #ccc;    // all borders set in global.styles - tables, fieldset, primary links
 $highlight:    #c00;    // required mark, form error highlight, "new" label on comments
 $ultralight:   #f5f5f5; // table row even, primary link inactive tabs

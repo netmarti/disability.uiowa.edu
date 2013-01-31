@@ -8,6 +8,22 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 /* Increase the body font size on small devices */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000316}}
 html {
   font-size: 81.3%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000320}}
+#nav-wrapper .container .support li a {
+  display: inline;
+  background: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000329}}
+.cde {
+  font-size: 75%;
 }

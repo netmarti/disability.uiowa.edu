@@ -12,7 +12,7 @@
  * used as an alternative to directly editing or adding code to templates. Its
  * worth spending some time to learn more about these functions - they are a
  * powerful way to easily modify the output of any template variable.
- * 
+ *
  * Preprocess and Process Functions SEE: http://drupal.org/node/254940#variables-processor
  * 1. Rename each function and instance of "disability" to match
  *    your subthemes name, e.g. if your theme name is "footheme" then the function
@@ -30,7 +30,7 @@ function disability_preprocess_html(&$vars) {
   global $theme_key;
 
   // Two examples of adding custom classes to the body.
-  
+
   // Add a body class for the active theme name.
   // $vars['classes_array'][] = drupal_html_class($theme_key);
 
@@ -53,9 +53,66 @@ function disability_process_html(&$vars) {
 /**
  * Override or insert variables for the page templates.
  */
-/* -- Delete this line if you want to use these functions
+/*
 function disability_preprocess_page(&$vars) {
+  $vars['back_link'] = '';
+  $front_page = $vars['front_page'];
+  $url = explode('/', request_uri());
+  $subsection = '';
+
+  if ($url[1] == 'disability') {
+    $switch = $url[2];
+    if (isset($url[3])) {
+      $subsection = $url[3];
+    }
+  }
+  else {
+    $switch = $url[1];
+    if (isset($url[2])) {
+      $subsection = $url[2];
+    }
+  }
+
+  switch ($switch) {
+    case 'cdo':
+      $vars['site_name'] = "<a class='cdo' href='$front_page" . "cdo'>Chief disability Office</a>";
+      $vars['back_link'] = "<a id='back-link' href='$front_page'>Back to disability@Iowa</a>";
+      $vars['facebook'] = 'http://www.facebook.com/universityofiowa';
+      $vars['twitter'] = 'https://twitter.com/uiowa';
+      $vars['youtube'] = 'http://www.youtube.com/user/universityofiowa';
+      break;
+    case 'cde':
+      $vars['facebook'] = 'pages/U-of-Iowa-Center-for-disability-Enrichment/170373939694424?ref=ts&fref=ts';
+      $vars['twitter'] = 'https://twitter.com/uiowa';
+      $vars['youtube'] = 'http://www.youtube.com/user/universityofiowa';
+      if ($subsection == 'sss') {
+        $vars['site_name'] = "<a class='sss-cde' href='$front_page" . "cde'>Center for disability &amp; Enrichment</a>";
+      }
+      elseif ($subsection == 'upward-bound') {
+        $vars['site_name'] = "<a class='ub-cde' href='$front_page" . "cde'>Center for disability &amp; Enrichment</a>";
+      }
+      else {
+        $vars['site_name'] = "<a class='cde' href='$front_page" . "cde'>Center for disability &amp; Enrichment</a>";
+      }
+      $vars['back_link'] = "<a id='back-link' href='$front_page'>Back to disability@Iowa</a>";
+      break;
+    case 'eod':
+      $vars['site_name'] = "";
+      $vars['site_name'] .= "<a class='eod' href='$front_page" . "eod'>Equal Opportunity &amp; disability</a>";
+      $vars['back_link'] = "<a id='back-link' href='$front_page'>Back to disability@Iowa</a>";
+      $vars['facebook'] = 'http://www.facebook.com/universityofiowa';
+      $vars['twitter'] = 'https://twitter.com/uiowa';
+      $vars['youtube'] = 'http://www.youtube.com/user/universityofiowa';
+      break;
+    default:
+      $vars['site_name'] = "<a class='disability' href='$front_page'>disability @ IOWA</a>";
+      $vars['facebook'] = 'http://www.facebook.com/universityofiowa';
+      $vars['twitter'] = 'https://twitter.com/uiowa';
+      $vars['youtube'] = 'http://www.youtube.com/user/universityofiowa';
+      break;
+  }
 }
+
 function disability_process_page(&$vars) {
 }
 // */

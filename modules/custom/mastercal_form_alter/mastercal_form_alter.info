@@ -1,0 +1,5 @@
+name = Mastercal Form Alter
+description = Alters form for adding events.
+core = 7.x
+package = UIowa
+files[] = mastercal_form_alter.module

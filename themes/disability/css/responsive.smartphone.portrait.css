@@ -8,6 +8,12 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 /* Increase the default font size on small devices */
-html {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.portrait\.scss}line{font-family:\0000316}}
+#main-content {
   font-size: 112.5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/diversity\.uiowa\.edu\/themes\/diversity\/sass\/responsive\.smartphone\.portrait\.scss}line{font-family:\0000320}}
+.eod {
+  font-size: 60%;
 }

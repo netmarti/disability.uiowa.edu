@@ -1,6 +1,7 @@
 
 // _base.scss imports _custom.scss (variables and mixins) and other partials.
 @import "base";
+@import "compass/utilities/sprites";
 
 /*
  * @file
@@ -30,7 +31,7 @@
  *   Base
  * ========================================================================== */
 
-/* 
+/*
  * To preserve theme settings never apply font properties to the HTML element.
  * This is critically important if you are using the Responsive JavaScript
  * feature as this relies on being able to set a pseudo font family on the HTML
@@ -39,14 +40,13 @@
  */
 
 html {
-  background: $page;
+  background: url("../css/images/gold-stripes.png");
 }
 
 body {
   font-family: $sans-serif-small; // Set from _custom.scss font variables
   font-size: 87.5%;
 }
-
 
 /* =============================================================================
  *   HTML Elements
@@ -108,7 +108,9 @@ q {}
 address {}
 
 
-ul {}
+ul {
+	list-style-image: url("../css/images/bullet.png");
+}
 
 
 ol {}
@@ -151,14 +153,20 @@ var {
  * Main wrapper in page.tpl.php, the .container class sets the width of the page, do not add width to it!
  */
 #page  {
-  .container {}
+	position: relative;
+  .container {
+    background: $white;
+  }
 }
 
 
 /*
  * Wraps all header elements - branding and .region-header
  */
-#header {}
+#header {
+	background: $gold;
+	padding-bottom: 1em;
+}
 
 
 /*
@@ -178,6 +186,11 @@ var {
  */
 #main-content {}
 
+.section-about {
+  #main-content {
+
+  }
+}
 
 /*
  * Wraps the content region, avoid applying styles to this wrapper, its used mainly for position and invisible gutters and can be problematic to style
@@ -188,7 +201,9 @@ var {
 /*
  * Footer wrapper
  */
-#footer {}
+#footer {
+  background-color: $grey;
+}
 
 
 /*
@@ -225,9 +240,10 @@ var {
  * Wraps the header
  */
 #header-wrapper {
-  /* Debug styles, is this working */
-  background: $debug;
-  .container {}
+	background: url("../css/images/dark-stripes.png");
+  .container {
+
+  }
 }
 
 
@@ -235,7 +251,30 @@ var {
  * Wraps the nav elements
  */
 #nav-wrapper {
-  .container {}
+	background: url("../css/images/dark-stripes.png");
+  .container {
+    background-color: $white;
+    position: relative;
+    & .support {
+      position: absolute;
+      top: 35px;
+      right: 5px;
+      z-index: 2;
+      li  {
+        display: block;
+        a {
+          @include ir;
+          display: block;
+          width: 195px;
+          height: 125px;
+          background: url("../css/images/support.png") center no-repeat;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
 }
 
 
@@ -267,7 +306,9 @@ var {
  * Wraps the main content column
  */
 #content-wrapper {
-  .container {}
+	background: url("../css/images/gold-stripes.png");
+  .container {
+  }
 }
 
 
@@ -283,9 +324,6 @@ var {
  * Footer wrapper
  */
 #footer-wrapper {
-  /* Debug styles, is this working? */
-  background: $debug;
-
   .container {}
 }
 
@@ -293,6 +331,9 @@ var {
 /* =============================================================================
  *   Branding
  * ========================================================================== */
+#ui-wrapper {
+	border-top: 3px solid #FFCD05;
+}
 
 /*
  * Wraps all the branding elements, logo, name and slogan
@@ -304,8 +345,9 @@ var {
  * Logo
  */
 #logo {
-  padding: 10px 0;
-
+  padding: 10px 10px 0 0;
+  display: inline;
+  float: left;
   img {
     vertical-align: bottom;
   }
@@ -315,29 +357,35 @@ var {
 /*
  * Wrapper for the site name and slogan (hgroup)
  */
-#name-and-slogan {}
+#name-and-slogan {
+}
 
 
 /*
  * Site name (h1)
  */
 #site-name {
-  margin: 0;
-
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 10px;
   a {
-
+    bottom: 0;
     &:link,
     &:visited {
+      color: $black;
       text-decoration: none;
+      span {
+        display: block;
+        font-size: 70%;
+        margin: -40px 0 0 0;
+      }
     }
-
     &:hover,
     &:focus {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
-
 
 /*
  * Site slogan (h2)
@@ -354,14 +402,15 @@ var {
 /*
  * Main content header wraps the page title, tabs and actions links
  */
-#main-content-header {}
+#main-content-header {
+}
 
 
 /*
  * The main page title (h1)
  */
 #page-title {
-  margin: 0;
+
 }
 
 
@@ -515,15 +564,30 @@ a {
   text-decoration: none;
 
   &:link,
-  &:visited {}
+  &:visited {
+    color: $black;
+    border-bottom: 1px dashed $gold;
+  }
 
   &:active,
   &.active {}
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid $gold;
   }
+}
+
+#ui-logo a {
+  background: none;
+}
+
+#ui-logo a, .support a, .secondary-menu a, #block-superfish-1 a, .date-prev a, .date-next a, #footer a[href*="login"], .facebook, .twitter, .youtube, .contextual-links-trigger {
+  border-bottom: none !important;
+	&:hover {
+	  border-bottom: none;
+	}
 }
 
 
@@ -563,9 +627,9 @@ a {
     display: block;
     white-space: nowrap;
     padding: 0 10px;
-    
+
     &:visited {}
-    
+
     &:hover,
     &:focus {}
   }
@@ -575,10 +639,260 @@ a {
   }
 }
 
+#back-link {
+	position: absolute;
+	bottom: 0;
+  margin: 0 0 0 10px;
+  border-bottom: none;
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+#secondary-menu-bar {
+	float: right;
+	margin: 1% 20px 0 0;
+	li {
+	  padding: 0 0 0 0;
+	  a {
+	    color: $black;
+	  }
+	}
+}
+
+#footer {
+	padding: 0 0 20px 0;
+	.block-inner {
+    margin: 0 0 0 0;
+  }
+  p {
+    margin: 0 30px 0 30px;
+    font-size: 80%;
+  }
+  & .links a {
+    background-color: $dark_grey;
+    @include border-radius(5px);
+    color: $grey;
+    @include box-shadow(1px 1px $dark_grey);
+    padding: 5px 10px 5px 10px;
+  }
+}
+
+#block-menu-menu-footer-menu {
+	.menu {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .block-content {
+    background-color: $white;
+  }
+  li {
+    display: inline-block;
+    width: 25%;
+    list-style-type: none;
+    list-style-image: none;
+    a {
+      text-align: center;
+      display: block;
+      color: #000000;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    &.menu-item-1174 a {
+      border-bottom: 5px solid $green;
+      &:hover {
+        background-color: rgba($green, 0.5);
+      }
+    }
+    &.menu-item-1294 a {
+      border-bottom: 5px solid $blue;
+      &:hover {
+        background-color: rgba($blue, 0.5);
+      }
+    }
+    &.menu-item-1293 a {
+      border-bottom: 5px solid $red;
+      &:hover {
+        background-color: rgba($red, 0.5);
+      }
+    }
+    &.menu-item-1177 a {
+      border-bottom: 5px solid $purple;
+      &:hover {
+        background-color: rgba($purple, 0.5);
+      }
+    }
+  }
+}
+
+#block-menu-menu-secondary-footer-menu {
+  .menu {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .block-content {
+    background-color: $white;
+  }
+  li {
+    display: inline-block;
+    width: 25%;
+    list-style-type: none;
+    list-style-image: none;
+    a {
+      text-align: center;
+      display: block;
+      color: #000000;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    &.menu-item-1291 a {
+      border-bottom: 5px solid $green;
+      &:hover {
+        background-color: rgba($green, 0.5);
+      }
+    }
+    &.menu-item-1288 a {
+      border-bottom: 5px solid $blue;
+      &:hover {
+        background-color: rgba($blue, 0.5);
+      }
+    }
+    &.menu-item-1289 a {
+      border-bottom: 5px solid $red;
+      &:hover {
+        background-color: rgba($red, 0.5);
+      }
+    }
+    &.menu-item-1292 a {
+      border-bottom: 5px solid $purple;
+      &:hover {
+        background-color: rgba($purple, 0.5);
+      }
+    }
+  }
+}
+
+/* Login Link */
+#footer-wrapper .links {
+  float: left;
+  width: 10%;
+  margin: 0 0 0 30px;
+  padding: 1% 0 0 0;
+}
+
+.facebook {
+	float: right;
+	display: block;
+	width: 23px;
+	height: 24px;
+	margin: 0 5px;
+	background-image: url("icons/facebook.png");
+	text-indent: -9999px;
+}
+
+.twitter {
+	float: right;
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin: 0 5px;
+  background-image: url("icons/twitter.png");
+  text-indent: -9999px;
+}
+
+.youtube {
+	float: right;
+  display: block;
+  width: 54px;
+  height: 20px;
+  margin: 0 30px 0 5px;
+  background-image: url("icons/youtube.png");
+  text-indent: -9999px;
+}
+
+/* =============================================================================
+ *   Sidebar Menus
+ * ========================================================================== */
+.pane-menu-menu-cdo, .pane-menu-menu-eod, .pane-menu-menu-cde, .pane-system-main-menu {
+  min-height: 390px;
+  ul {
+    li {
+      border-bottom: 1px dotted $brown;
+      list-style-image: none;
+      list-style-type: none;
+      a {
+        display: block;
+        padding: 4px 0 4px 0;
+        color: $dark_grey;
+        border-bottom: none;
+        &:hover {
+          color: $black;
+          border-bottom: none;
+        }
+        &.active {
+          color: $black ;
+        }
+      }
+      & ul {
+        margin-top: 0 !important;
+        & {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+ .pane-menu-menu-cdo {
+   border-top: 5px solid #1ea89c;
+   border-bottom: 5px solid #1ea89c;
+ }
+
+ .pane-menu-menu-cde {
+   border-top: 5px solid #6073b5;
+   border-bottom: 5px solid #6073b5;
+ }
+
+ .pane-menu-menu-eod {
+   border-top: 5px solid #d5652c;
+   border-bottom: 5px solid #d5652c;
+ }
+
+
 
 /* =============================================================================
  *   Superfish
  * ========================================================================== */
+#superfish-1 {
+	.sf-depth-1 {
+	  font-weight: bold;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid $dark_grey;
+    color: $dark_grey;
+    padding: 0 20px 0 20px;
+    & a {
+      font-size: 110%;
+    }
+    &.last {
+      border-right: none;
+      & a {
+        border-right: none;
+      }
+    }
+  }
+  .sf-depth-2 {
+    background: $dark_grey;
+    border: none;
+    color: $white;
+    @include opacity(0.8);
+  }
+}
 
 ul.sf-menu {
   margin-bottom: 0;
@@ -678,6 +992,11 @@ ul.sf-menu {
   padding: 0 10px;
 }
 
+#block-superfish-1 {
+	float: right;
+	margin: 3px 1% 0 0;
+}
+
 
 /* =============================================================================
  *   Menus, usually blocks
@@ -724,10 +1043,10 @@ ul.menu {
 
 /* If li.content exists it's a problem, so reset the padding */
 .block .menu li.content {
-  padding: 0;   
+  padding: 0;
 }
 
- 
+
 /* =============================================================================
  *   Book navigation menu
  * ========================================================================== */
@@ -745,7 +1064,7 @@ ul.menu {
     min-width: 2em;
     white-space: nowrap;
   }
-  
+
   .menu {
     margin-left: 0;
   }
@@ -862,6 +1181,123 @@ ul.pager li {
   &.pager-last {}
 }
 
+/* =============================================================================
+ *   Frontpage
+ * ========================================================================== */
+ .front {
+   #header-wrapper {
+     position: absolute;
+    height: 500px;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    padding-bottom: 6.5em;
+   }
+   #content-wrapper {
+     margin-top: 168px;
+   }
+   section {
+       padding-left: 5%;
+     }
+   .view-articles, .view-events {
+     ul {
+       padding: 0 0 0 0;
+       & li {
+         margin-bottom: 10px;
+         list-style-type: none;
+         & article {
+           margin-bottom: -10px;
+           padding: 0 !important;
+         }
+       }
+     }
+     a {
+       color: $black;
+     }
+     .date-display-single {
+       font-size: 90%;
+     }
+   }
+   #node-25 {
+     margin: 0 10% 0 0;
+     img {
+       float: right;
+       padding: 0 0 2% 2%;
+     }
+   }
+ }
+
+ .not-front {
+   #content-wrapper {
+     margin-top: -13px;
+     .container {
+       padding-top: 20px;
+     }
+   }
+ }
+
+ /* =============================================================================
+ *   Slideshow
+ * ========================================================================== */
+ .pane-slideshow-panel-pane-1 .block-inner {
+   margin: 0 !important;
+ }
+
+ .views-slideshow-cycle-main {
+   position: relative;
+   z-index: 1;
+ }
+
+ .view-slideshow {
+   position: relative;
+   z-index: 2;
+   text-align: center;
+   margin: 0 0 0 0;
+   img {
+     @include single-box-shadow;
+     width: 100%;
+   }
+   views_slideshow_cycle_main, .views-slideshow-cycle-main-frame, .views-slideshow-cycle-main-frame-row {
+     width: 100% !important;
+   }
+   .views-slideshow-controls-text-previous {
+     display: block;
+     width: 33px;
+     height: 42px;
+     position: absolute;
+     top: 40%;
+     left: 2%;
+     background: url("../css/images/back.png") center no-repeat;
+     text-indent: -9999px;
+     z-index: 10;
+   }
+   .views-slideshow-controls-text-pause {
+     display: none;
+   }
+   .views-slideshow-controls-text-next {
+     display: block;
+     width: 33px;
+     height: 42px;
+     position: absolute;
+     top: 40%;
+     right: 2%;
+     background: url("../css/images/forward.png") center no-repeat;
+     text-indent: -9999px;
+     z-index: 11;
+   }
+   .views-field-field-caption {
+     position: relative;
+     display: block;
+     @include text-shadow(2px 2px $black);
+     font-weight: bold;
+     font-size: 130%;
+     z-index: 1;
+     color: $gold;
+     margin: -52px 0 0 0;
+     padding: 10px 0 10px 0;
+     background-color: rgba($dark_grey, 0.7);
+   }
+ }
 
 /* =============================================================================
  *   Skip Navigation
@@ -947,7 +1383,7 @@ ul.primary {
     a,
     a:hover,
     a:focus {
-      background-color: $page;
+
       border-bottom-color: $page;
     }
   }
@@ -1152,7 +1588,7 @@ ul.action-links {
 
 
 /*
- * Image Alignment Theme Settings - included here so you can easily override 
+ * Image Alignment Theme Settings - included here so you can easily override
  */
 
 /*
@@ -1605,7 +2041,7 @@ ul.action-links {
 /*
  * Wrapper for a form element (or group of form elements) and its label
  */
-.form-item { 
+.form-item {
 
   input.error,
   textarea.error,
@@ -1617,7 +2053,7 @@ ul.action-links {
     font-weight: 700;
   }
 
-  label.option { 
+  label.option {
   }
 
   .description {
@@ -1642,7 +2078,7 @@ ul.action-links {
 /*
  * The submit button
  */
-.form-submit { 
+.form-submit {
 }
 
 
@@ -1663,14 +2099,14 @@ fieldset {
 /*
  * Tips for Drupal's input formats
  */
-.tips { 
+.tips {
 }
 
 
 /*
  * Buttons used by contrib modules like Media
  */
-a.button { 
+a.button {
   @include appearance(button);
 }
 
@@ -1748,7 +2184,7 @@ tbody tr {
 tr {
 
   &.odd {
-    background: $page;
+
   }
 
   /* Table row striping */

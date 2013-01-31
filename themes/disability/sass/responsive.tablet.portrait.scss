@@ -14,5 +14,18 @@
 
 /* Increase the body font size on small devices */
 html {
-  font-size: 81.3%; 
+  font-size: 81.3%;
+}
+
+#nav-wrapper .container .support li a {
+    display: inline;
+    background: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: $black;
+  }
+
+.cde {
+  font-size: 75%;
 }

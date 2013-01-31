@@ -13,6 +13,10 @@
  */
 
 /* Increase the default font size on small devices */
-html {
-  font-size: 112.5%; 
+#main-content {
+  font-size: 112.5%;
+}
+
+.eod {
+  font-size: 60%;
 }

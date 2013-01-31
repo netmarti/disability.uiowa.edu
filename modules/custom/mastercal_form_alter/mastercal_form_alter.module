@@ -1,0 +1,26 @@
+<?php
+/**
+ * @file mastercal_form_alter.module
+ *
+ * Hides certain fields when adding an event manually.
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function mastercal_form_alter_form_alter(&$form, &$form_state, $form_id) {
+  if (isset($form['type'])) {
+    // If the form is for Mastercal events.
+    if (isset($form['type']['#value'])) {
+      if ($form['type']['#value'] == 'mastercal_event') {
+        // Hide certain fields.
+        $form['field_mc_eid']['#access'] = FALSE;
+        $form['field_mc_did']['#access'] = FALSE;
+        $form['field_mc_calendar']['#access'] = FALSE;
+        $form['field_mc_updated_date']['#access'] = FALSE;
+        $form['field_mc_detail_updated_date']['#access'] = FALSE;
+        $form['field_mc_tags']['#access'] = FALSE;
+      }
+    }
+  }
+}
