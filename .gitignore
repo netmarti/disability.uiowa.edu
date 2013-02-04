@@ -9,3 +9,6 @@ themes/disability/.sass-cache
 
 # Ignore codekit config
 codekit-config.json
+
+/themes/disability/codekit-config.json
+/themes/disability/.sass-cache/f299a1cbb3761b211a5c89bce7ccc0221677ec5f/global.styles.scssc
