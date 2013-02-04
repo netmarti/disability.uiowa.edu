@@ -85,6 +85,22 @@ var {
   padding-bottom: 1em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003171}}
+.disability {
+  display: block !important;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+  width: 470px;
+  height: 115px;
+  background: url("../css/images/disability.png") center no-repeat;
+}
+
 /*
  * Wraps the sidebars the content column
  */
@@ -100,7 +116,7 @@ var {
 /*
  * Footer wrapper
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003211}}
 #footer {
   background-color: #d8d9da;
 }
@@ -124,7 +140,7 @@ var {
 /*
  * Wraps the header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003249}}
 #header-wrapper {
   background: url("../css/images/dark-stripes.png");
 }
@@ -132,27 +148,27 @@ var {
 /*
  * Wraps the nav elements
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003260}}
 #nav-wrapper {
   background: url("../css/images/dark-stripes.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003262}}
 #nav-wrapper .container {
   background-color: white;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003265}}
 #nav-wrapper .container .support {
   position: absolute;
   top: 35px;
   right: 5px;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003270}}
 #nav-wrapper .container .support li {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003272}}
 #nav-wrapper .container .support li a {
   display: block !important;
   text-indent: 100%;
@@ -168,7 +184,7 @@ var {
   height: 125px;
   background: url("../css/images/support.png") center no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003278}}
 #nav-wrapper .container .support li a:hover {
   text-decoration: none;
 }
@@ -185,7 +201,7 @@ var {
 /*
  * Wraps the main content column
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003315}}
 #content-wrapper {
   background: url("../css/images/gold-stripes.png");
 }
@@ -199,7 +215,7 @@ var {
 /* =============================================================================
  *   Branding
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003341}}
 #ui-wrapper {
   border-top: 3px solid #ffcd05;
 }
@@ -210,13 +226,13 @@ var {
 /*
  * Logo
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003354}}
 #logo {
   padding: 10px 10px 0 0;
   display: inline;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003358}}
 #logo img {
   vertical-align: bottom;
 }
@@ -227,28 +243,28 @@ var {
 /*
  * Site name (h1)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003374}}
 #site-name {
   position: relative;
   margin: 0 0 0 0;
   padding: 10px 0 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003378}}
 #site-name a {
   bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003381}}
 #site-name a:link, #site-name a:visited {
   color: black;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003384}}
 #site-name a:link span, #site-name a:visited span {
   display: block;
   font-size: 70%;
   margin: -40px 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003391}}
 #site-name a:hover, #site-name a:focus {
   text-decoration: none;
 }
@@ -256,7 +272,7 @@ var {
 /*
  * Site slogan (h2)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003400}}
 #site-slogan {
   margin: 0;
 }
@@ -279,14 +295,14 @@ var {
 /*
  * Aggregator feed source
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003437}}
 #aggregator .feed-source .feed-icon {
   display: inline;
   float: none;
   margin-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003445}}
 .feed-details dt,
 .feed-details dd {
   display: inline;
@@ -299,16 +315,16 @@ var {
 /*
  * Generic styles for links. See the ul.links declaration in node and comment stylesheets
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003460}}
 ul.links {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003464}}
 ul.links.inline {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003461}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003468}}
 ul.links li {
   display: inline;
   list-style: none;
@@ -318,7 +334,7 @@ ul.links li {
 /*
  * Search results are an ordered list so reset the margin
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003479}}
 .search-results {
   margin: 0;
 }
@@ -368,31 +384,31 @@ ul.links li {
 /* =============================================================================
  *   Links
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003570}}
 a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003574}}
 a:link, a:visited {
   color: black;
   border-bottom: 1px dashed #ebc733;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003576}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003583}}
 a:hover, a:focus {
   text-decoration: none;
   border-bottom: 1px solid #ebc733;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003589}}
 #ui-logo a {
   background: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003593}}
 #ui-logo a, .support a, .secondary-menu a, #block-superfish-1 a, .date-prev a, .date-next a, #footer a[href*="login"], .facebook, .twitter, .youtube, .contextual-links-trigger {
   border-bottom: none !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003595}}
 #ui-logo a:hover, .support a:hover, .secondary-menu a:hover, #block-superfish-1 a:hover, .date-prev a:hover, .date-next a:hover, #footer a[href*="login"]:hover, .facebook:hover, .twitter:hover, .youtube:hover, .contextual-links-trigger:hover {
   border-bottom: none;
 }
@@ -407,18 +423,18 @@ a:hover, a:focus {
  *  - #secondary-menu (secondary/user menu)
  * You can target all of these with .nav or div[id$="menu-bar"]
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003613}}
 .nav {
   clear: both;
   margin: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003611}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003618}}
 .nav ul,
 .nav ul.menu {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003624}}
 .nav li,
 .nav ul.menu li {
   display: inline;
@@ -427,58 +443,58 @@ a:hover, a:focus {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003633}}
 .nav li a,
 .nav ul.menu li a {
   display: block;
   white-space: nowrap;
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003637}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003644}}
 .nav .block {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003649}}
 #back-link {
   position: absolute;
   bottom: 0;
   margin: 0 0 0 10px;
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003647}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003654}}
 #back-link:hover {
   border-bottom: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003652}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003659}}
 #secondary-menu-bar {
   float: right;
   margin: 1% 20px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003662}}
 #secondary-menu-bar li {
   padding: 0 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003657}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003664}}
 #secondary-menu-bar li a {
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003663}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003670}}
 #footer {
   padding: 0 0 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003672}}
 #footer .block-inner {
   margin: 0 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003668}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003675}}
 #footer p {
   margin: 0 30px 0 30px;
   font-size: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003679}}
 #footer .links a {
   background-color: #3d4049;
   -webkit-border-radius: 5px;
@@ -493,128 +509,128 @@ a:hover, a:focus {
   padding: 5px 10px 5px 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003689}}
 #block-menu-menu-footer-menu .menu {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003693}}
 #block-menu-menu-footer-menu .block-content {
   background-color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003696}}
 #block-menu-menu-footer-menu li {
   display: inline-block;
   width: 25%;
   list-style-type: none;
   list-style-image: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003701}}
 #block-menu-menu-footer-menu li a {
   text-align: center;
   display: block;
   color: #000000;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003700}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003707}}
 #block-menu-menu-footer-menu li a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003703}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003710}}
 #block-menu-menu-footer-menu li.menu-item-1174 a {
   border-bottom: 5px solid #1ea89c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003705}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003712}}
 #block-menu-menu-footer-menu li.menu-item-1174 a:hover {
   background-color: rgba(30, 168, 156, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003716}}
 #block-menu-menu-footer-menu li.menu-item-1294 a {
   border-bottom: 5px solid #6073b5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003711}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003718}}
 #block-menu-menu-footer-menu li.menu-item-1294 a:hover {
   background-color: rgba(96, 115, 181, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003722}}
 #block-menu-menu-footer-menu li.menu-item-1293 a {
   border-bottom: 5px solid #d5652c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003717}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003724}}
 #block-menu-menu-footer-menu li.menu-item-1293 a:hover {
   background-color: rgba(213, 101, 44, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003728}}
 #block-menu-menu-footer-menu li.menu-item-1177 a {
   border-bottom: 5px solid #7b60a5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003730}}
 #block-menu-menu-footer-menu li.menu-item-1177 a:hover {
   background-color: rgba(123, 96, 165, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003731}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003738}}
 #block-menu-menu-secondary-footer-menu .menu {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003742}}
 #block-menu-menu-secondary-footer-menu .block-content {
   background-color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003738}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003745}}
 #block-menu-menu-secondary-footer-menu li {
   display: inline-block;
   width: 25%;
   list-style-type: none;
   list-style-image: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003750}}
 #block-menu-menu-secondary-footer-menu li a {
   text-align: center;
   display: block;
   color: #000000;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003749}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003756}}
 #block-menu-menu-secondary-footer-menu li a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003752}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003759}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1291 a {
   border-bottom: 5px solid #1ea89c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003754}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003761}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1291 a:hover {
   background-color: rgba(30, 168, 156, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003758}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003765}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1288 a {
   border-bottom: 5px solid #6073b5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003760}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003767}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1288 a:hover {
   background-color: rgba(96, 115, 181, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003771}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1289 a {
   border-bottom: 5px solid #d5652c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003766}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003773}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1289 a:hover {
   background-color: rgba(213, 101, 44, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003777}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1292 a {
   border-bottom: 5px solid #7b60a5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003772}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003779}}
 #block-menu-menu-secondary-footer-menu li.menu-item-1292 a:hover {
   background-color: rgba(123, 96, 165, 0.5);
 }
 
 /* Login Link */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003787}}
 #footer-wrapper .links {
   float: left;
   width: 10%;
@@ -622,7 +638,7 @@ a:hover, a:focus {
   padding: 1% 0 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003794}}
 .facebook {
   float: right;
   display: block;
@@ -633,7 +649,7 @@ a:hover, a:focus {
   text-indent: -9999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003797}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003804}}
 .twitter {
   float: right;
   display: block;
@@ -644,7 +660,7 @@ a:hover, a:focus {
   text-indent: -9999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003814}}
 .youtube {
   float: right;
   display: block;
@@ -658,54 +674,54 @@ a:hover, a:focus {
 /* =============================================================================
  *   Sidebar Menus
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003820}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003827}}
 .pane-menu-menu-cdo, .pane-menu-menu-eod, .pane-menu-menu-cde, .pane-system-main-menu {
   min-height: 390px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003823}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003830}}
 .pane-menu-menu-cdo ul li, .pane-menu-menu-eod ul li, .pane-menu-menu-cde ul li, .pane-system-main-menu ul li {
   border-bottom: 1px dotted #dcb467;
   list-style-image: none;
   list-style-type: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003827}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003834}}
 .pane-menu-menu-cdo ul li a, .pane-menu-menu-eod ul li a, .pane-menu-menu-cde ul li a, .pane-system-main-menu ul li a {
   display: block;
   padding: 4px 0 4px 0;
   color: #3d4049;
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003832}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003839}}
 .pane-menu-menu-cdo ul li a:hover, .pane-menu-menu-eod ul li a:hover, .pane-menu-menu-cde ul li a:hover, .pane-system-main-menu ul li a:hover {
   color: black;
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003843}}
 .pane-menu-menu-cdo ul li a.active, .pane-menu-menu-eod ul li a.active, .pane-menu-menu-cde ul li a.active, .pane-system-main-menu ul li a.active {
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003840}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003847}}
 .pane-menu-menu-cdo ul li ul, .pane-menu-menu-eod ul li ul, .pane-menu-menu-cde ul li ul, .pane-system-main-menu ul li ul {
   margin-top: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003842}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003849}}
 .pane-menu-menu-cdo ul li ul, .pane-menu-menu-eod ul li ul, .pane-menu-menu-cde ul li ul, .pane-system-main-menu ul li ul {
   border-bottom: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003850}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003857}}
 .pane-menu-menu-cdo {
   border-top: 5px solid #1ea89c;
   border-bottom: 5px solid #1ea89c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003855}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003862}}
 .pane-menu-menu-cde {
   border-top: 5px solid #6073b5;
   border-bottom: 5px solid #6073b5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003860}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003867}}
 .pane-menu-menu-eod {
   border-top: 5px solid #d5652c;
   border-bottom: 5px solid #d5652c;
@@ -714,7 +730,7 @@ a:hover, a:focus {
 /* =============================================================================
  *   Superfish
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003871}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003878}}
 #superfish-1 .sf-depth-1 {
   font-weight: bold;
   background: none;
@@ -724,19 +740,19 @@ a:hover, a:focus {
   color: #3d4049;
   padding: 0 20px 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003886}}
 #superfish-1 .sf-depth-1 a {
   font-size: 110%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003882}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003889}}
 #superfish-1 .sf-depth-1.last {
   border-right: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003884}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003891}}
 #superfish-1 .sf-depth-1.last a {
   border-right: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003889}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003896}}
 #superfish-1 .sf-depth-2 {
   background: #3d4049;
   border: none;
@@ -745,11 +761,11 @@ a:hover, a:focus {
   opacity: 0.8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003897}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003904}}
 ul.sf-menu {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003900}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003907}}
 ul.sf-menu a {
   border-left: 0;
   border-top: 0;
@@ -758,11 +774,11 @@ ul.sf-menu a {
   height: 2.5em;
   line-height: 2.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003914}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003921}}
 ul.sf-menu li:hover, ul.sf-menu li.sfHover {
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003922}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003929}}
 ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
   outline: 0;
 }
@@ -770,12 +786,12 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Superfish blocks
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003936}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003943}}
 .block-superfish ul {
   margin: 0 !important;
   padding: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003947}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003954}}
 .block-superfish li {
   margin: 0 !important;
   padding: 0 !important;
@@ -784,22 +800,22 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Vertical style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003957}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003964}}
 .sf-vertical {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003960}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003967}}
 .sf-vertical li {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003966}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003973}}
 .sf-vertical li:hover ul, .sf-vertical li.sfHover ul {
   left: 100%;
   top: 0;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003973}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003980}}
 .sf-vertical li a {
   padding: 0 10px;
 }
@@ -807,7 +823,7 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Navbar style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003983}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003990}}
 .sf-navbar {
   padding-bottom: 0 !important;
 }
@@ -815,12 +831,12 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Sensible padding for the default style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003991}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003998}}
 .sf-menu.sf-style-default a {
   padding: 0 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\00003995}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031002}}
 #block-superfish-1 {
   float: right;
   margin: 3px 1% 0 0;
@@ -829,21 +845,21 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /* =============================================================================
  *   Menus, usually blocks
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031005}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031012}}
 ul.menu {
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031008}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031015}}
 ul.menu ul {
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031016}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031023}}
 ul.menu li {
   margin: 0;
 }
 
 /* If li.content exists it's a problem, so reset the padding */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031045}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031052}}
 .block .menu li.content {
   padding: 0;
 }
@@ -851,13 +867,13 @@ ul.menu li {
 /* =============================================================================
  *   Book navigation menu
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031062}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031069}}
 .book-navigation .page-up {
   /* Prevent text wrapping to a new line, assumes English "up" is used (two characters) */
   min-width: 2em;
   white-space: nowrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031068}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031075}}
 .book-navigation .menu {
   margin-left: 0;
 }
@@ -865,31 +881,31 @@ ul.menu li {
 /* =============================================================================
  *   Breadcrumbs
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031078}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031085}}
 #breadcrumb {
   margin: 10px 0;
   /* If the label is set to show in theme settings the label class is added */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031082}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031089}}
 #breadcrumb .breadcrumb-label {
   font-size: 1em;
   display: inline;
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031087}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031094}}
 #breadcrumb .breadcrumb-label:after {
   content: ":";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031092}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031099}}
 #breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031097}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031104}}
 #breadcrumb .with-breadcrumb-label ol {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031108}}
 #breadcrumb li {
   list-style: none;
   display: inline;
@@ -898,31 +914,31 @@ ul.menu li {
 /* =============================================================================
  *   Pagers
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031135}}
 ul.pager {
   clear: both;
   margin: 0;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031142}}
 .item-list ul.pager li {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031147}}
 ul.pager li {
   background-image: none;
   display: inline;
   list-style-type: none;
   padding: .5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031153}}
 ul.pager li.pager-current {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031159}}
 .block ul.pager li {
   margin: 0;
 }
@@ -933,7 +949,7 @@ ul.pager li.pager-current {
 /* =============================================================================
  *   Frontpage
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031195}}
 .front #header-wrapper {
   position: absolute;
   height: 500px;
@@ -942,51 +958,51 @@ ul.pager li.pager-current {
   width: 100%;
   padding-bottom: 6.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031203}}
 .front #content-wrapper {
   margin-top: 168px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031206}}
 .front section {
   padding-left: 5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031210}}
 .front .view-articles ul, .front .view-events ul {
   padding: 0 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031212}}
 .front .view-articles ul li, .front .view-events ul li {
   margin-bottom: 10px;
   list-style-type: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031215}}
 .front .view-articles ul li article, .front .view-events ul li article {
   margin-bottom: -10px;
   padding: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031221}}
 .front .view-articles a, .front .view-events a {
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031224}}
 .front .view-articles .date-display-single, .front .view-events .date-display-single {
   font-size: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031228}}
 .front #node-25 {
   margin: 0 10% 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031230}}
 .front #node-25 img {
   float: right;
   padding: 0 0 2% 2%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031238}}
 .not-front #content-wrapper {
   margin-top: -13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031240}}
 .not-front #content-wrapper .container {
   padding-top: 20px;
 }
@@ -994,36 +1010,36 @@ ul.pager li.pager-current {
 /* =============================================================================
 *   Slideshow
 * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031249}}
 .pane-slideshow-panel-pane-1 .block-inner {
   margin: 0 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031253}}
 .views-slideshow-cycle-main {
   position: relative;
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031258}}
 .view-slideshow {
   position: relative;
   z-index: 2;
   text-align: center;
   margin: 0 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031263}}
 .view-slideshow img {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031267}}
 .view-slideshow views_slideshow_cycle_main, .view-slideshow .views-slideshow-cycle-main-frame, .view-slideshow .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031270}}
 .view-slideshow .views-slideshow-controls-text-previous {
   display: block;
   width: 33px;
@@ -1035,11 +1051,11 @@ ul.pager li.pager-current {
   text-indent: -9999px;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031281}}
 .view-slideshow .views-slideshow-controls-text-pause {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031284}}
 .view-slideshow .views-slideshow-controls-text-next {
   display: block;
   width: 33px;
@@ -1051,7 +1067,7 @@ ul.pager li.pager-current {
   text-indent: -9999px;
   z-index: 11;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031295}}
 .view-slideshow .views-field-field-caption {
   position: relative;
   display: block;
@@ -1068,7 +1084,7 @@ ul.pager li.pager-current {
 /* =============================================================================
  *   Skip Navigation
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031313}}
 #skip-link {
   left: 50%;
   margin-left: -6.5em;
@@ -1078,7 +1094,7 @@ ul.pager li.pager-current {
   width: 12em;
   z-index: 50;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031322}}
 #skip-link a {
   background: #444;
   background: rgba(0, 0, 0, 0.6);
@@ -1089,7 +1105,7 @@ ul.pager li.pager-current {
   text-align: center;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031333}}
 #skip-link a:link, #skip-link a:visited {
   background: #444;
   background: rgba(0, 0, 0, 0.6);
@@ -1100,7 +1116,7 @@ ul.pager li.pager-current {
   text-align: center;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031345}}
 #skip-link a:hover, #skip-link a:focus, #skip-link a:active {
   outline: 0;
 }
@@ -1108,24 +1124,24 @@ ul.pager li.pager-current {
 /* =============================================================================
  *   Tabs (local tasks)
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031356}}
 #tasks {
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031361}}
 ul.primary {
   border-bottom-color: #cccccc;
   margin: 20px 0;
   padding: 0 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031366}}
 ul.primary li {
   display: block;
   float: left;
   margin: 0 1px -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031371}}
 ul.primary li a {
   background-color: whitesmoke;
   border-color: #cccccc;
@@ -1136,31 +1152,31 @@ ul.primary li a {
   height: 1.5em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031382}}
 ul.primary li a:hover, ul.primary li a:focus {
   background-color: #eeeeee;
   border-color: #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031392}}
 ul.primary li.active a,
 ul.primary li.active a:hover,
 ul.primary li.active a:focus {
   border-bottom-color: #4c4f57;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031400}}
 ul.secondary {
   border-bottom: 1px solid #cccccc;
   margin: 1em 0 0;
   padding: 0 0.3em 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031405}}
 ul.secondary li {
   border-right: 0;
   list-style: none;
   padding: 0 10px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031412}}
 ul.secondary li a:hover, ul.secondary li a.active {
   border-bottom: none;
   text-decoration: underline;
@@ -1169,7 +1185,7 @@ ul.secondary li a:hover, ul.secondary li a.active {
 /* =============================================================================
  *   Action links
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031425}}
 ul.action-links {
   margin: 20px 0 0;
   list-style: none;
@@ -1190,7 +1206,7 @@ ul.action-links {
 /*
  * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031458}}
 .field-label {
   font-size: 1em;
   font-weight: 700;
@@ -1208,17 +1224,17 @@ ul.action-links {
 /*
  * Taxonomy
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031487}}
 .field-type-taxonomy-term-reference {
   /* The same bottom margin as p, blockquote, ul, ol and dl */
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031492}}
 .field-type-taxonomy-term-reference.field-label-inline .field-items {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031497}}
 .field-type-taxonomy-term-reference.field-label-inline .field-item {
   display: inline;
   list-style: none;
@@ -1276,7 +1292,7 @@ ul.action-links {
 /*
  * Float left setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031612}}
 .ia-l .field-type-image figure,
 .iat-l .field-type-image figure {
   margin: 5px 20px 15px 0;
@@ -1285,7 +1301,7 @@ ul.action-links {
 /*
  * Centered setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031614}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031621}}
 .ia-c .field-type-image figure,
 .iat-c .field-type-image figure {
   margin: 5px auto 15px;
@@ -1294,7 +1310,7 @@ ul.action-links {
 /*
  * Float right setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031630}}
 .ia-r .field-type-image figure,
 .iat-r .field-type-image figure {
   margin: 5px 0 15px 20px;
@@ -1306,7 +1322,7 @@ ul.action-links {
 /*
  * Main wrapper for most blocks, block_system_main does not have it
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031643}}
 .block {
   margin-bottom: 20px;
 }
@@ -1329,7 +1345,7 @@ ul.action-links {
 /*
  * Block title
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031674}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031681}}
 .block-title {
   margin: 0;
 }
@@ -1340,12 +1356,12 @@ ul.action-links {
 /*
  * Match item list and block menu margin and padding
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031691}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031698}}
 .block-content ul,
 .block-content ol {
   padding: 0 0 0 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031702}}
 .block-content li {
   margin: 0;
   padding: 0;
@@ -1435,11 +1451,11 @@ ul.action-links {
 /* =============================================================================
  *   Node Styling
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031868}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031875}}
 .node {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031885}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031892}}
 .node .node-title {
   margin: 0;
 }
@@ -1455,15 +1471,15 @@ ul.action-links {
 /*
  * Wrapper for the list of comments and its titles
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031943}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031950}}
 #comments {
   margin: 1.5em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031947}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031954}}
 #comments h2.comment-title {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031951}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031958}}
 #comments h2.comment-form {
   margin: 0;
 }
@@ -1471,7 +1487,7 @@ ul.action-links {
 /*
  * Wrapper for a single comment
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031961}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031968}}
 .comment {
   margin-bottom: 20px;
 }
@@ -1479,7 +1495,7 @@ ul.action-links {
 /*
  * Comment title
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031992}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000031999}}
 .comment-title {
   margin: 0;
 }
@@ -1493,7 +1509,7 @@ ul.action-links {
 /*
  * "New" marker for comments that are new for the current user
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032024}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032031}}
 .new {
   color: #cc0000;
 }
@@ -1501,7 +1517,7 @@ ul.action-links {
 /*
  * Nested comments are indented
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032039}}
 .indented {
   margin-left: 40px;
 }
@@ -1512,17 +1528,17 @@ ul.action-links {
 /*
  * Wrapper for a form element (or group of form elements) and its label
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032048}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032055}}
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
   border: 1px solid #cc0000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032052}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032059}}
 .form-item label {
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032059}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032066}}
 .form-item .description {
   font-size: 0.85em;
 }
@@ -1530,7 +1546,7 @@ ul.action-links {
 /*
  * Highlight marks and form required mark
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032073}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032080}}
 .marker,
 .form-required {
   color: #cc0000;
@@ -1539,7 +1555,7 @@ ul.action-links {
 /*
  * The submit button
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032087}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032094}}
 .container-inline div,
 .container-inline label {
   display: inline;
@@ -1548,7 +1564,7 @@ ul.action-links {
 /*
  * Define consistent borders
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032095}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032102}}
 fieldset {
   border: 1px solid #cccccc;
 }
@@ -1559,7 +1575,7 @@ fieldset {
 /*
  * Buttons used by contrib modules like Media
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032116}}
 a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -1569,7 +1585,7 @@ a.button {
 /*
  * Password confirmation
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032125}}
 .password-parent,
 .confirm-parent {
   margin: 0;
@@ -1578,18 +1594,18 @@ a.button {
 /* =============================================================================
  *   Tables
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032134}}
 table {
   margin: 10px 0;
   padding: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032139}}
 table.sticky-header {
   z-index: 10;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032150}}
 table,
 thead,
 tbody,
@@ -1599,27 +1615,27 @@ td {
   border-color: #cccccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032157}}
 table,
 td,
 th {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032164}}
 caption,
 th,
 td {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032169}}
 thead tr {
   font-weight: 700;
   background-color: #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032176}}
 td,
 th {
   border-bottom: 0;
@@ -1627,25 +1643,25 @@ th {
   padding: 5px 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032186}}
 tbody tr {
   border-top: 1px solid #cccccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032191}}
 tr {
   /* Table row striping */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032200}}
 tr.info, tr.even, tr:nth-child(2n+2) {
   border-bottom: 0;
   background-color: whitesmoke;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032209}}
 tr.odd td.active {
   background-color: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032213}}
 tr.even td.active {
   background-color: #ebebeb;
 }
@@ -1654,7 +1670,7 @@ tr.even td.active {
  * Forum tables
  * Core sets white-space to nowrap, which makes no sense
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032241}}
 #forum td .created,
 #forum td .posts,
 #forum td .topics,
@@ -1667,12 +1683,12 @@ tr.even td.active {
 /* =============================================================================
  *   Messages
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032252}}
 div.messages {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032257}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -1681,7 +1697,7 @@ div.messages ul {
 /*
  * Unpublished nodes
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032298}}
 .node-unpublished p.unpublished,
 .comment-unpublished p.unpublished {
   color: pink;
@@ -1707,28 +1723,28 @@ div.messages ul {
 /* =============================================================================
  *    Maintenance pages
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032309}}
 .maintenance-page .container {
   padding: 40px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032314}}
 .maintenance-page #site-name,
 .maintenance-page #page-title {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032321}}
 .db-offline .container {
   margin: 0 auto;
   padding: 40px 0;
   width: 100%;
   max-width: 960px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032328}}
 .db-offline div.messages {
   margin: 20px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032332}}
 .db-offline #content {
   padding: 20px 0;
 }
@@ -1739,7 +1755,7 @@ div.messages ul {
 /*
  * Admin menu overrides
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032345}}
 #admin-menu {
   margin: 0;
   padding: 0;
@@ -1748,7 +1764,7 @@ div.messages ul {
 /*
  * Devel Module
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032354}}
 .dev-query {
   background: #eeeeee;
   padding: 30px;
@@ -1757,11 +1773,11 @@ div.messages ul {
 /*
  * Styleguide module tweaks
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032363}}
 #styleguide-header {
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rbporter\/drupal\/sites\/custom\/sites\/disability\.uiowa\.edu\/themes\/disability\/sass\/global\.styles\.scss}line{font-family:\000032366}}
 #styleguide-header .item-list {
   font-family: inherit;
   margin: 0 20px 20px 0;

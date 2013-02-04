@@ -168,6 +168,13 @@ var {
 	padding-bottom: 1em;
 }
 
+.disability {
+  @include ir;
+  width: 470px;
+  height: 115px;
+  background: url('../css/images/disability.png') center no-repeat;
+}
+
 
 /*
  * Wraps the sidebars the content column
