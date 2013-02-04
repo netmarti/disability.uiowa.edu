@@ -1,2 +1,11 @@
+# Ignore settings file.
 settings.php
-.DS_Store
+
+# Ignore files folder.
+files
+
+# Ignore .sass-cache.
+themes/disability/.sass-cache
+
+# Ignore codekit config
+codekit-config.json
