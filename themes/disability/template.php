@@ -63,7 +63,6 @@ function disability_preprocess_page(&$vars) {
   $vars['facebook'] = 'http://www.facebook.com/universityofiowa';
   $vars['twitter'] = 'https://twitter.com/uiowa';
   $vars['youtube'] = 'http://www.youtube.com/user/universityofiowa';
-  }
 }
 
 function disability_process_page(&$vars) {
