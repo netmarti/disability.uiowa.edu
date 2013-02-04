@@ -59,7 +59,8 @@ function disability_preprocess_page(&$vars) {
   $url = explode('/', request_uri());
   $subsection = '';
 
-  $vars['back_link'] = "<a id='back-link' href='$front_page'>Back to disability@Iowa</a>";
+  $vars['site_name'] = "<a class='disability' href='$front_page" . "cdo'>Disability @ UIOWA</a>";
+  $vars['back_link'] = "<a id='back-link' href='$front_page'>Back to Disability@Iowa</a>";
   $vars['facebook'] = 'http://www.facebook.com/universityofiowa';
   $vars['twitter'] = 'https://twitter.com/uiowa';
   $vars['youtube'] = 'http://www.youtube.com/user/universityofiowa';
